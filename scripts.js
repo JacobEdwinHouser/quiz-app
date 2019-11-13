@@ -131,7 +131,7 @@ function renderFeedback(submittedAnswer) {
     ${correctAnswer ? "Correct" : "Wrong"}
   `);
 
-  $('.js-feedback').show();
+  $('.js-feedback').show(400);
 }
 
 function listenForContinue() {

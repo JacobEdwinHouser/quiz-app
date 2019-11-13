@@ -1,0 +1,117 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+}
+
+button {
+  font-size: 1.75em;
+  color: white;
+  padding: 15px 5px;
+  width: 100%;
+  background-color: #021876;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(143, 12, 28);
+  transition: 0.2s all linear;
+}
+
+fieldset {
+  border: none;
+}
+
+form {
+  margin-top: 30px;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 15px;
+  border-radius: 15px;
+  border: 1px solid #021876;
+  text-align: center;
+  color: #021876;
+  font-size: 1.5em;
+}
+
+label:hover, input:checked + label, input:hover {
+  background-color: #021876;
+  color: white;
+  transition: 0.2s all linear;
+}
+/* label:focus,  input:focus */
+
+legend {
+  font-size: 1.75em;
+}
+.american-flag-icon {
+  max-width: 280px;
+}
+
+.capitol-img {
+  max-width: 100%;
+  border: 1px solid black;
+}
+
+.centered {
+  text-align: center;
+}
+
+.default-text-size {
+  font-size: 1.5em;
+}
+
+.header {
+  margin-top: 10px;
+}
+
+.heading {
+  font-size: 1.5em;
+}
+
+.js-feedback {
+  display: none;
+}
+
+.question {
+  font-size: 1.5em;
+}
+
+.question-number {
+  float: left;
+}
+
+.question-number, .score {
+  font-size: 1.1em;
+  color: rgb(195, 195, 195);
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-weight: 500px;
+}
+
+.score {
+  float: right;
+}
+
+.start-button {
+  margin-top: 25px;
+}
+
+.submit-button {
+  margin-top: 15px;
+}
+
+.uncle-sam {
+  max-height: 250px;
+}
